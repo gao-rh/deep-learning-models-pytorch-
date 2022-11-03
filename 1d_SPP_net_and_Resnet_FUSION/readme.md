@@ -1,8 +1,10 @@
+# urban region function recognizing by fusion of **remote sensing data** and **social sensing data** 
+
 **Model**:  
-urban region function recognizing by fusion of **remote sensing data** and **social sensing data** 
-- remote sensing data: extracted by resnet18/50
-- social sensing data(time-series data): extracted by 1-d SPP net
-- fusion strategy: max/concat/sum 
+fusion of 1-d SPPnet and resnet18/50
+- **remote sensing data**: extracted by resnet18/50
+- **social sensing data**(time-series data): extracted by 1-d SPP net
+- **fusion strategy**: max/**concat**/sum 
 
 **Used Data**:
 - remote sensing:(N, 3, 96, 96)
